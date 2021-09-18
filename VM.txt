@@ -1,4 +1,6 @@
 mount -o remount,rw /mnt
-vi /mnt/grub/ment.lst
+vi /mnt/grub/menu.lst
 
 replace 'quiet' with 'nomodeset xforcevesa'
+
+reboot -f
