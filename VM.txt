@@ -1,0 +1,4 @@
+mount -o remount,rw /mnt
+vi /mnt/grub/ment.lst
+
+replace 'quiet' with 'nomodeset xforcevesa'
